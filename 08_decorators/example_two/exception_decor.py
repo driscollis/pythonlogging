@@ -22,8 +22,8 @@ def exception(logger):
                 err += function.__name__
                 logger.exception(err)
 
-            # re-raise the exception
-            raise
+                # re-raise the exception
+                raise
 
         return wrapper
 
