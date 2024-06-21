@@ -36,7 +36,7 @@ def main():
         },
     }
     logging.config.dictConfig(log_config_dict)
-    logger = logging.getLogger("root")
+    logger = logging.getLogger("example_app")
 
     logger.info("Program started")
     time.sleep(3)
